@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100%;
+    
+    
+    
+}
+section {
+    width: 50%;
+    height: 90%;
+    
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 10px;
+   
+    padding: 20px 20px 0 20px;
+}
+.title {
+    font-family: 'Macondo', cursive;
+    font-size: 30px;
+    color: #cbab7c;
+    text-align: center;
+    padding: 20px;
+}
+.question {
+    margin: 20px 0;
+    border: 1px solid #e2e8f0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.btn {
+    width: 100%;
+    background-color: #fff;
+    border: none;
+    padding: 15px;
+    text-align: left;
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn:hover {
+    background-color: #f9fafb;
+}
+
+.icon {
+    font-size: 20px;
+    color: #cbab7c;
+}
+
+.answer {
+    display: none;
+    padding: 15px;
+    background-color: #f9fafb;
+    border-top: 1px solid #e2e8f0;
+}
+
+.answer p {
+    margin: 0;
+    font-size: 16px;
+    color: #666;
+}
